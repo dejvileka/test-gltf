@@ -1,0 +1,123 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cube",
+            "scale" : [
+                0.125,
+                0.2800000011920929,
+                0.22499999403953552
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "Transparent.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06036726385354996,
+                    0.1526845544576645,
+                    0.13549059629440308,
+                    0.10000000149011612
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4000000059604645
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 8866,
+            "max" : [
+                1.01681387424469,
+                1.0000418424606323,
+                1.01681387424469
+            ],
+            "min" : [
+                -1.0126103162765503,
+                -1.0000001192092896,
+                -1.0126103162765503
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 8866,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 8866,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 51210,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 106392,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 106392,
+            "byteOffset" : 106392
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70928,
+            "byteOffset" : 212784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 102420,
+            "byteOffset" : 283712
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 386132,
+            "uri" : "lasttransparentcube4.bin"
+        }
+    ]
+}
